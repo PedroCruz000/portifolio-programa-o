@@ -174,7 +174,8 @@ a:hover{
     height: 100vh;
     width: 100vw;
     
-    background-color: rgb(68, 153, 156);
+    /* background-color: rgb(68, 153, 156);*/
+   
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -192,4 +193,36 @@ a:hover{
 }
 .textoTitulo{
 
+}
+.conteiner{
+    background-color: rgb(49, 142, 170);
+    background-image: url(IMAGENS/ICEBERG.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+}
+.SegundaSection{
+background-color: rgba(42, 119, 143, 0.438) ;
+padding: 1px;
+height: 400px;
+}
+.DivSobre{
+    width: 40vw;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.521);
+    margin: 50px;   
+    padding: 15px;
+}
+.TerceiraSection{
+    background-color:rgba(37, 102, 122, 0.438)  ;
+    padding: 1px;
+    height: 400px;
+}
+.DivHabilidades{
+    width: 40vw;
+    height: 20vh;
+    background-color: rgba(240, 248, 255, 0.521);
+    margin: 50px;
+    padding: 15px;
+    float: right;
 }
